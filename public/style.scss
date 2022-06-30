@@ -7,12 +7,13 @@ ul {
     display:flex;    
     flex-direction:row;
     list-style:none;
+    justify-content: center;
 }
 li{
     margin: 1rem;
 }
 
-a {
+li a {
     text-decoration:none;
     font-size:1.5rem;
     color:white;
@@ -23,4 +24,14 @@ a {
 a:hover{
     color:black;
     background-color:#223566
+}
+footer{
+    width:100%;
+    text-align:center;
+}
+main{
+    text-align: center;
+}
+#heroImage{
+    // background-image: ;
 }

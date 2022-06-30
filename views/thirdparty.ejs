@@ -61,18 +61,9 @@
             />
         </form>
         <article id="thirdAPIArticle" style="display:none">
-            <% if(results){ var x =document.getElementById("thirdAPIArticle"); x.style.display=block; }
-            <% for (var i = 0; i < results.length;i++){%>
-                <a href="https://www.udemy.com/<%= results[i].url %>">
-                    <section class="udemyCourse">
-                        <p><%= results[i].id %></p>
-                        <p><%= results[i].title %></p>
-                        <p><%= results[i]. %></p>
-                        <p><%= results[i].price %></p>
-                        <p><%= results[i].price %></p>
-                    </section>
-                </a>
-            <% } %>
+            <script> var x =document.getElementById("thirdAPIArticle");
+            let results = [ {id: "hi", title:"bye",price:"egw"}]
+            </script>
         </article>
     </main>
     <footer>
