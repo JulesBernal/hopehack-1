@@ -63,7 +63,7 @@
         <article id="thirdAPIArticle" style="display:none">
             <script> var x =document.getElementById("thirdAPIArticle");
             </script>
-                  <% if (results) { %> 
+                  <% if (results!==null) { %> 
                     <% x.style.display=block; %>
                 <%} %>
                 <% for(var i = 0; i < results.length;i++) {%>
