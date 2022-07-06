@@ -67,7 +67,7 @@ courseRouter.post("/firstAPI", (req, res) => {
          res.render('calendar',{result});
      })
        }); 
-  } catch {}
+  } catch { let x=3;}
  });
  courseRouter.post("/calendarACC", (req,res)=>{
   try{
